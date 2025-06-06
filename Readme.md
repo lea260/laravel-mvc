@@ -29,7 +29,17 @@ Asegúrate de que tu directorio raíz del proyecto tenga la siguiente estructura
 |-- php-config/
 |   \-- php.ini
 \-- src/
- 
+
+**```** <-- ¡IMPORTANTE: Abre el bloque de código aquí!
+.
+├── compose.yml
+├── Dockerfile
+├── docker-entrypoint.sh
+├── apache-site.conf
+├── php-config/
+│   └── php.ini
+└── src/
+**```** <-- ¡IMPORTANTE: Cierra el bloque de código aquí!
 
 Si la carpeta `src/` no existe, créala:
 
