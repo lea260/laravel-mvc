@@ -21,16 +21,14 @@ Sigue estos pasos para inicializar y poner en marcha el proyecto Laravel dentro 
 Asegúrate de que tu directorio raíz del proyecto tenga la siguiente estructura. La carpeta `src/` estará vacía al principio.
 
 ```
-
 .
-\── compose.yml
-\── Dockerfile
-\── docker-entrypoint.sh
-\── php-config/
+├── compose.yml
+├── Dockerfile
+├── docker-entrypoint.sh
+├── php-config/
 │   └── php.ini
 └── src/
- 
-````
+```
 
 Si la carpeta `src/` no existe, créala:
 
