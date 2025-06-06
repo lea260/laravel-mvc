@@ -22,12 +22,11 @@ Asegúrate de que tu directorio raíz del proyecto tenga la siguiente estructura
 
 
 ```
-
 .
-\-- compose.yml
-\-- Dockerfile
-\-- docker-entrypoint.sh
-\-- php-config/
+|-- compose.yml
+|-- Dockerfile
+|-- docker-entrypoint.sh
+|-- php-config/
 |   \-- php.ini
 \-- src/
  
