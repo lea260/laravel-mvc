@@ -23,10 +23,10 @@ Asegúrate de que tu directorio raíz del proyecto tenga la siguiente estructura
 ```
 
 .
-├── compose.yml
-├── Dockerfile
-├── docker-entrypoint.sh
-├── php-config/
+\── compose.yml
+\── Dockerfile
+\── docker-entrypoint.sh
+\── php-config/
 │   └── php.ini
 └── src/
  
@@ -53,7 +53,7 @@ Una vez que los servicios estén en ejecución, necesitas instalar Laravel en el
 Primero, accede al contenedor de PHP:
 
 ```bash
-docker compose exec php bash
+docker compose exec -it php bash
 ```
 
 Una vez dentro del contenedor (tu terminal cambiará de prompt), navega al directorio del proyecto e instala Laravel:
