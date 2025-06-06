@@ -25,6 +25,7 @@ RUN a2enmod rewrite
 # Copiar configuración personalizada de PHP
 COPY php-config/php.ini /usr/local/etc/php/conf.d/custom.ini
 
+COPY apache-site.conf /etc/apache2/sites-available/000-default.conf
 # Copiar entrypoint personalizado
 
 
