@@ -1,4 +1,4 @@
-¡Absolutamente\! Aquí tienes el `README.md` actualizado, incorporando todas tus excelentes sugerencias para una mayor claridad y completitud, incluyendo la referencia a las credenciales de la base de datos, los comandos de Composer y la limpieza de la caché.
+Aquí tienes el `README.md` con el comando `php artisan db:seed` agregado a la sección de "Comandos Comunes de Laravel Artisan".
 
 -----
 
@@ -268,6 +268,10 @@ Una vez que estés **dentro del contenedor `php`** (usando `docker compose exec 
   * **Deshacer la última tanda de migraciones:**
     ```bash
     php artisan migrate:rollback
+    ```
+  * **Cargar los datos de prueba definidos en tus seeders:**
+    ```bash
+    php artisan db:seed
     ```
   * **Limpiar toda la caché de Laravel (configuración, rutas, vistas, aplicación):**
     ```bash
