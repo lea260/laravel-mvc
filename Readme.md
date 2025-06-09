@@ -303,6 +303,16 @@ Una vez que estés **dentro del contenedor `php`**, puedes ejecutar estos comand
     composer update
     ```
 
------
 
-¡Disfruta desarrollando tu aplicación Laravel con Docker\!
+
+---
+
+## 🖥️ Acceso a phpMyAdmin
+
+Una vez que tus servicios Docker estén en ejecución (y hayas agregado el servicio `phpmyadmin` a tu `compose.yml`), puedes acceder a phpMyAdmin para gestionar tu base de datos MariaDB:
+
+* **URL:** [http://localhost:8081](http://localhost:8081)
+* **Usuario:** `root`
+* **Contraseña:** `root`
+
+---
